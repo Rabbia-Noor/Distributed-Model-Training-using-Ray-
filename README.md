@@ -40,7 +40,8 @@ Ray is an open-source distributed computing framework for Python that makes it e
 ## Dataset
 
 The project uses the Azure VM Failure Prediction dataset. The raw data was preprocessed, cleaned, and feature-engineered before training. Steps applied include handling missing values, feature selection, one-hot encoding of categorical variables, data transformation, and validation. The fully preprocessed dataset is available below and should be downloaded before running the notebook.
-[Azure VM Failure Prediction Dataset](https://www.kaggle.com/datasets/rabbianoor07/azure-vm-data)
+
+[Azure VM Failure Prediction Dataset: https://www.kaggle.com/datasets/rabbianoor07/azure-vm-data](https://www.kaggle.com/datasets/rabbianoor07/azure-vm-data)
 ---
 
 ## System Architecture
@@ -84,17 +85,10 @@ The distributed implementation achieved substantial reductions in execution time
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/distributed-ml-ray-project.git
+git clone https://github.com/Rabbia-Noor/distributed-ml-ray-project.git
 cd distributed-ml-ray-project
 ```
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ## How to Run
 
@@ -107,23 +101,6 @@ jupyter notebook notebooks/distributed_ml_ray_project.ipynb
 ```
 
 If running on Kaggle, upload the notebook and dataset, enable internet access under Notebook Settings, then run all cells sequentially.
-
----
-
-## Project Structure
-
-```text
-Distributed-ML-Ray-Project/
-│
-│── distributed_ml_ray_project.ipynb
-│
-│── ray_architecture.png
-│performance_comparison.png
-│
-├── requirements.t
-│
-└── README.md
-```
 
 ---
 
@@ -140,3 +117,6 @@ Distributed-ML-Ray-Project/
 ## Conclusion
 
 This project demonstrates the practical benefits of distributed computing for Azure VM failure prediction. By leveraging Ray's parallel execution model across Kaggle's multi-core environment, the pipeline achieves significant reductions in training time while maintaining prediction accuracy, making it a scalable approach for real-world cloud analytics workloads.
+
+## Author
+![Rabbia Noor](https://github.com/Rabbia-Noor)
