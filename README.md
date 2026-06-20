@@ -119,4 +119,4 @@ If running on Kaggle, upload the notebook and dataset, enable internet access un
 This project demonstrates the practical benefits of distributed computing for Azure VM failure prediction. By leveraging Ray's parallel execution model across Kaggle's multi-core environment, the pipeline achieves significant reductions in training time while maintaining prediction accuracy, making it a scalable approach for real-world cloud analytics workloads.
 
 ## Author
-![Rabbia Noor](https://github.com/Rabbia-Noor)
+[Rabbia Noor](https://github.com/Rabbia-Noor)
