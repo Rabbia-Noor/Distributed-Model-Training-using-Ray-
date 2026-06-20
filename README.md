@@ -39,8 +39,8 @@ Ray is an open-source distributed computing framework for Python that makes it e
 
 ## Dataset
 
-The project uses the Azure VM Failure Prediction dataset. The raw data was preprocessed, cleaned, and feature-engineered before training. Steps applied include handling missing values, feature selection, one-hot encoding of categorical variables, data transformation, and validation. The fully preprocessed dataset is available in this repository and should be downloaded before running the notebook.
-
+The project uses the Azure VM Failure Prediction dataset. The raw data was preprocessed, cleaned, and feature-engineered before training. Steps applied include handling missing values, feature selection, one-hot encoding of categorical variables, data transformation, and validation. The fully preprocessed dataset is available below and should be downloaded before running the notebook.
+[Azure VM Failure Prediction Dataset](https://www.kaggle.com/datasets/rabbianoor07/azure-vm-data)
 ---
 
 ## System Architecture
@@ -73,7 +73,7 @@ Results from all parts are aggregated and visualized, covering total execution t
 
 ## Results
 
-![Performance Comparison Across All Pipeline Phases](performance_comparison.png)
+![Performance Comparison Across All Pipeline Phases](performance_chart.png)
 
 The distributed implementation achieved substantial reductions in execution time compared to sequential processing. Using Ray with Kaggle's multi-core environment enabled efficient utilization of available computational resources, resulting in faster model training and improved scalability.
 
